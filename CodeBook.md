@@ -1,13 +1,11 @@
-=========================
+
     Study Design 
-=========================
 
 The raw data is representing Human Activity Recognition data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The raw dataset includes the following files of interest for the final tidy data set:
-=====================================================================================
 
 - 'README.txt'
 
@@ -30,7 +28,6 @@ The raw dataset includes the following files of interest for the final tidy data
 - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample for 30% of the 30 volunteers.
 
 Steps performed to tidy the raw data:
-======================================
 
 1. The columns in the x data sets are named based on the features vector including a sequence number to prevent duplicates.
 2. The number of observations in the x, y and subject sets is equal and the test/training data sets are joined by binding the columns.
@@ -40,9 +37,9 @@ Steps performed to tidy the raw data:
 6. The column names are given a descriptive variable name. The subjectid and the activity are straightforward, but for the mean/std features, few text transforamtions take place: the original names are stripped off the punctuation (-,()), BodyBody is corrected with one occurrence, all the capital letters are lowered as per the best practise to secure easy reference later on, t is replaced with time and f with freq.
 7. Finally, the rows are grouped by subject id and activity and for each group, the mean values of the remaining features is summarized.
 
-==================
+
     Code Book
-==================
+
 
 The tidy data set in R is a data frame with 180 observations of 88 variables defined as:
 

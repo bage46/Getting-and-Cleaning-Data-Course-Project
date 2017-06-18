@@ -1,6 +1,5 @@
-=====================================================================================
+
 Getting tidy data from the raw Human Recognition Activity Samsung Smartphone Dataset
-=====================================================================================
 
 The process of getting and cleaning the raw HAR dataset is automated with the run_analysis.R script that:
 
