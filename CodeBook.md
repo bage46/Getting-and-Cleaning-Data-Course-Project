@@ -1,5 +1,5 @@
 
-    Study Design 
+Study Design 
 --------------------
 
 The raw data is representing Human Activity Recognition data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
@@ -39,7 +39,7 @@ Steps performed to tidy the raw data:
 7. Finally, the rows are grouped by subject id and activity and for each group, the mean values of the remaining features is summarized.
 
 
-    Code Book
+Code Book
 -----------------
 
 The tidy data set in R is a data frame with 180 observations of 88 variables defined as:
