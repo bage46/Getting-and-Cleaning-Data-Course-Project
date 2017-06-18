@@ -69,4 +69,4 @@ colnames(filteredset) <- gsub("^f","freq",colnames(filteredset))
 
 avgFeatures <- filteredset %>% group_by(subjectid, activity) %>% summarise_each(funs(mean(., na.rm=TRUE)))
 
-write.csv(avgFeatures, file = "HARMeanSummary.csv")
+write.table(avgFeatures,"HARMeanSummary.txt",row.name=FALSE)

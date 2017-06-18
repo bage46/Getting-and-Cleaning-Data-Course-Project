@@ -10,7 +10,7 @@ The process of getting and cleaning the raw HAR dataset is automated with the ru
 - replaces the activity identifiers with descriptive names for the activities
 - groups the data per subject and activity and summarizes the groups by calculating the mean value of each feature in the final set
 
-The tidy data set is written by the R script to a csv file "HARMeanSummary.csv".
+The tidy data set is written by the R script to a txt file "HARMeanSummary.txt".
 
 The files include a CodeBook.md with the Study Design for the analysis and a Code Book that describes the variables and the units of the tidy dataset.
 
